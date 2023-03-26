@@ -1,0 +1,43 @@
+double_buffer yes
+no_buffers yes
+text_buffer_size 2048
+alignment top_middle
+gap_x 250
+gap_y 300
+
+minimum_size 1 1
+maximum_width 1000
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_argb_visual yes
+own_window_argb_value 0
+
+border_inner_margin 0
+border_outer_margin 0
+
+
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+default_shade_color 112422
+
+override_utf8_locale yes
+use_xft yes
+xftfont Feena Casual:size=10
+xftalpha 1
+uppercase yes
+
+default_color D6D5D4
+#E87E3C
+own_window_colour 000000
+TEXT
+
+
+${font Adamas:size=40}${color D6D5D4}${time %A}
+${font Chilanka Regular:size=15}${color D6D5D4}${voffset -30}${offset 160}${time %m %B}
+
+${font Chilanka Regular:size=15}${color D6D5D4}${voffset -30}${offset 205}${time %R}
+
